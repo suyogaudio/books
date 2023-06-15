@@ -1,0 +1,30 @@
+#logo{
+	
+	padding:50px;
+	border-radius: 100px;
+    vertical-align: top;
+    height:150px;
+    width:200px;
+}
+#nav{
+    margin-left: 15%;
+    padding: 20px;  
+    
+}
+#img{
+
+	padding:5px;
+	border-radius: 100px;
+    vertical-align: bottom;
+}
+#note{
+    margin-left:3%;
+    margin-right: 10%;
+	padding:50px;
+	border-radius: 100px;
+    vertical-align: top;
+
+}
+#uline{
+    align-self: center;
+}
