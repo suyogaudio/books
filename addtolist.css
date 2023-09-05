@@ -1,9 +1,20 @@
 /*CSS file */
+:root{
+    --bcg-color: #01172c;
+    --primary-color: #155e75;
+    --secondary-color: #fff;
+    --border-color: #7fb7c9;
+}
+*{
 
+    font-family: sans-serif;
+}
 
 
 .card{
-    border:1px solid black;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    border:1px solid rgb(255, 255, 255);
     width:max-content;
     text-align:center;
     display:inline-block;
@@ -21,8 +32,8 @@
 }
 
 button{
-    border:2px solid #e1701a;
-    background: #f7a440;
+    border:2px solid #f66d05;
+    background: #d17f1a;
     color:white;
     font-weight: bold;
     margin:20px;
