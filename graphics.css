@@ -1,3 +1,21 @@
+:root{
+    --bcg-color: #01172c;
+    --primary-color: #155e75;
+    --secondary-color: #fff;
+    --border-color: #a1bfc9;
+}
+*{
+
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--bcg-color);
+    font-size: 15px;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
 #logo{
 	
 	padding:50px;
